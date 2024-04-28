@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32pt;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 800px;
+    border: 2px solid;
+    border-radius: 10pt;
+    overflow: hidden;
+    padding: 5px;
+    gap: 5px;
+}
+
+#display {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-grow: 1;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 100pt;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex-grow: 20;
+}
+
+.buttons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 24%;
+    border-radius: 10%;
+    background-color: gray;
+}
+
